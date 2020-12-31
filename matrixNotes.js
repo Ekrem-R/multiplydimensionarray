@@ -40,7 +40,7 @@ function germanMean() {
  function englishMean() {
     let result=0;
     for(let i=0;i<notes.length;i++){
-        result= result+ notes[i][2];
+        result= result+ notes[i][3];
      }
    return result/notes.length;
  }
@@ -48,7 +48,7 @@ function germanMean() {
  function geographyMean() {
     let result=0;
     for(let i=0;i<notes.length;i++){
-        result= result+ notes[i][2];
+        result= result+ notes[i][4];
      }
    return result/notes.length;
  }
